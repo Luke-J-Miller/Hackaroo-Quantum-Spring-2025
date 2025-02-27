@@ -142,3 +142,6 @@ Below is a set of project ideas for a quantum‑enhanced AI track using **Qiskit
    - The constraints of today’s NISQ (Noisy Intermediate-Scale Quantum) hardware and how that impacts results.  
 
 With these starter ideas, participants can choose what resonates with them (classification, clustering, generative modeling, optimization, etc.) and adapt to any dataset of interest. By providing clear examples and a structured GitHub repo, you’ll lower the barrier to entry for first-time quantum hackers and create a fun, educational environment. Good luck with your quantum track!
+
+
+Go [here](https://docs.quantum.ibm.com/migration-guides/qiskit-runtime-examples) to learn how to run on quantum hardware.
