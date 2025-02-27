@@ -1,5 +1,6 @@
 # UMKC Research-A-Thon, Spring 2025, Quantum Track
 
+This is still being developed, more resources and information will be added in the current week.
 This event is our first quantum hackathon. We do not expect participants to be experts in quantum programming. The examples in this repository can help participants learn the basics.
 
 ## Event Overview
