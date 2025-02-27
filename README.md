@@ -1,3 +1,22 @@
+# UMKC Research-A-Thon, Spring 2025, Quantum Track
+
+This event is our first quantum hackathon. We do not expect participants to be experts in quantum programming. The examples in this repository can help participants learn the basics.
+
+## Event Overview
+- **Submission Requirements**:
+  1. A well-organized GitHub repository. This includes a readme describing your project. Avoid large amounts of 'helper' files. The function should be evident and understandable from your main notebook.
+  2. A 5-minute video explaining your approach and results. Some judges may not be able to attend in person, they will judge you on this.
+  3. A poster summarizing your method and findings. You will stand next to your poster and explain your project. You should rehearse a 45 second 'elevator pitch'. What is your project, how does it work, why your methods, what impact could it have?
+
+## Grading Rubric
+| Task | Points | Description|
+|------|--------|-------------|
+|1. Code Quality and Comments	| 20	| Clear, working code. Each function or section should have comments.|
+|2. Classical vs. Quantum Comparison	| 20	| Clear comparison of the classical approach with the quantum approach.|
+|3. Explanation of Quantum Methods	| 20	| Solid understanding of the quantum algorithms or concepts used.|
+|4. Potential for Quantum Advantage	| 20	| Explanation of how the quantum method might surpass classical methods as hardware improves.|
+|5. Future Impact	| 20	| Discussion of how this algorithm could change problem-solving approaches if quantum hardware grows more capable.|
+
 Below is a set of project ideas for a quantum‑enhanced AI track using **Qiskit**. Each project is described at a high level, with suggestions on how to adapt it to different datasets and how to emphasize the potential quantum advantage. These projects focus on **machine learning / AI** use cases, but they can be flexibly extended or simplified, depending on the participants’ skill levels.
 
 ---
