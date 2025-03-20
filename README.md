@@ -43,3 +43,6 @@ Welcome to the **Hackaroo Quantum Spring 2025** repository! This repo contains v
 For more details on **submission guidelines**, visit the [How-To-Submit](How-To-Submit/README.md) page.
 
 Happy hacking! 🚀
+
+
+Go [here](https://docs.quantum.ibm.com/migration-guides/qiskit-runtime-examples) to learn how to run on quantum hardware.
