@@ -6,7 +6,7 @@ Designed for students with **10 minutes of access** to IBM quantum computers (**
 
 ## **1. Quantum Bayesian Classifier**
 ### **Objective:**  
-Build a quantum Bayesian classifier that learns probabilities from a dataset and classifies new samples using Quantum Bayesian Inference (QBI).
+Build a quantum Bayesian classifier that learns probabilities from a dataset and classifies new samples using **[Quantum Bayesian Inference (QBI)](https://qiskit.org/documentation/machine-learning/tutorials/08_quantum_bayesian_inference.html)**.
 
 ### **Dataset Options:**
 - **[UCI Mushroom Dataset](https://archive.ics.uci.edu/ml/datasets/Mushroom)** (edibility based on features)
@@ -17,11 +17,11 @@ Build a quantum Bayesian classifier that learns probabilities from a dataset and
 1. **Encode features** into quantum Bayesian networks.
 2. **Train Bayesian networks** to model class probabilities.
 3. **Perform Quantum Inference** to classify new inputs.
-4. **Compare with Classical Bayesian Classifiers.**
+4. **Compare with [Classical Bayesian Inference](https://en.wikipedia.org/wiki/Bayesian_inference).**
 
 ### **IBM Q Execution Plan:**
 - Limit quantum network to **≤10 nodes** for efficiency.
-- Use **quantum rejection sampling** to refine probability estimates.
+- Use **[Quantum Rejection Sampling](https://arxiv.org/abs/quant-ph/0007020)** to refine probability estimates.
 - Compare quantum classifier vs. classical Bayesian classifier.
 
 ---
@@ -39,11 +39,11 @@ Use QBI to detect anomalies in financial transactions, network logs, or medical 
 1. **Train Bayesian networks** on normal data distribution.
 2. **Introduce anomalies** and test detection.
 3. **Use Quantum Rejection Sampling** to infer likelihood of anomalies.
-4. **Compare with Classical Bayesian Detection.**
+4. **Compare with [Classical Bayesian Detection](https://en.wikipedia.org/wiki/Anomaly_detection).**
 
 ### **IBM Q Execution Plan:**
 - Encode **limited feature sets** into Bayesian networks.
-- Use **amplitude amplification** for efficient rejection sampling.
+- Use **[Grover’s Amplitude Amplification](https://qiskit.org/textbook/ch-algorithms/grover.html)** for efficient rejection sampling.
 - Evaluate performance metrics (False Positives, True Positives).
 
 ---
@@ -78,9 +78,9 @@ Use QBI to **test causal relationships** instead of just correlations.
 - **[World Bank Economic Indicators](https://databank.worldbank.org/source/world-development-indicators)** (Does Inflation Affect Employment?)
 
 ### **Steps:**
-1. **Model causal relationships** using Bayesian networks.
+1. **Model causal relationships** using [Bayesian Networks](https://en.wikipedia.org/wiki/Bayesian_network).
 2. **Use Quantum Bayesian Inference** to test intervention-based causal effects.
-3. **Compare results with classical causal inference techniques.**
+3. **Compare results with [Classical Causal Inference](https://en.wikipedia.org/wiki/Causal_inference).**
 
 ### **IBM Q Execution Plan:**
 - Use **Grover’s amplitude amplification** to simulate interventions efficiently.
